@@ -118,7 +118,7 @@ public class CadUsu {
 	    driver.findElement(By.name("commit")).click();
 	}*/
 
-	/*	@Test
+	@Test
 	public void test4CriaTarefas() throws Exception {
 		driver.get(baseUrl);
 		driver.findElement(By.linkText("Entrar")).click();
@@ -150,9 +150,9 @@ public class CadUsu {
 			driver.findElement(By.id("issue_description")).sendKeys(descricao);
 			driver.findElement(By.name("commit")).click();
 		}
-	}*/
+	}
 
-	@Test
+/*	@Test
 	public void test5ValidaTarefa29() throws Exception {
 		String path = new File(".").getCanonicalPath();
 		JSONParser parser = new JSONParser();
@@ -194,7 +194,7 @@ public class CadUsu {
 			assertEquals("Título da Tarefa29", driver.findElement(By.xpath("//div[@id='content']/div[2]/div[2]/div/h3")).getText());			
 			}
 		}
-	}	
+	}*/	
 
 	@After
 	public void tearDown() throws Exception {
