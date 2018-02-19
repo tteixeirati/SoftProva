@@ -17,3 +17,4 @@
 [0218/210644.414:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
 [0218/212157.640:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
 [0218/213854.421:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0218/215139.894:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

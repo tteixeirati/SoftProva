@@ -86,6 +86,7 @@ public class CadUsu {
 		driver.findElement(By.id("password")).sendKeys("softbox123");
 		driver.findElement(By.name("login")).click();
 		driver.findElement(By.linkText("Projetos")).click();
+		Thread.sleep(1000);
 		driver.findElement(By.linkText("Novo projeto")).click();
 		driver.findElement(By.id("project_name")).clear();
 		driver.findElement(By.id("project_name")).sendKeys("Projeto " + dataFormatada);
@@ -111,6 +112,7 @@ public class CadUsu {
 		driver.findElement(By.id("password")).sendKeys("softbox123");
 		driver.findElement(By.name("login")).click();
 		driver.findElement(By.linkText("Projetos")).click();
+		Thread.sleep(1000);
 		driver.findElement(By.linkText("Projeto " + dataFormatada)).click();
 
 		String path = new File(".").getCanonicalPath();
