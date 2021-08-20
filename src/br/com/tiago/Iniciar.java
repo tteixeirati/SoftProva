@@ -10,6 +10,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
+//The program has to call this class to start
 public class Iniciar {
 	private String baseUrl = "";
 
